@@ -133,10 +133,10 @@ formInner.addEventListener('submit', function (e) {
 });
 
 //Fondy
-fetch('https://pay.fondy.eu/api/checkout/url/')
-.then(function (response) {
-  console.log(response)
-})
-.catch(function (error) {
-  console.error(error)
-})
+// fetch('https://pay.fondy.eu/api/checkout/url/')
+// .then(function (response) {
+//   console.log(response)
+// })
+// .catch(function (error) {
+//   console.error(error)
+// })
