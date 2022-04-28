@@ -350,7 +350,7 @@ input[type=number]::placeholder {
 
 .header {
   position: relative;
-  padding-bottom: 260px;
+  padding-bottom: 150px;
   overflow: hidden;
 }
 
@@ -364,8 +364,14 @@ input[type=number]::placeholder {
   height: 804px;
 }
 
-.header-links {
+.header-head {
   padding: 12px 0;
+  background: #fafcff;
+  -webkit-box-shadow: 1px 4px 10px rgba(44, 44, 44, 0.1);
+  box-shadow: 1px 4px 10px rgba(44, 44, 44, 0.1);
+}
+
+.header-links {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -468,7 +474,7 @@ input[type=number]::placeholder {
 }
 
 .header-offer {
-  padding: 70px 0;
+  padding: 140px 0 70px 0;
 }
 
 .header-offer h1 {
@@ -667,8 +673,6 @@ input[type=number]::placeholder {
   line-height: 47px;
   text-align: center;
   color: #ffdf39;
-  max-width: 680px;
-  width: 100%;
   margin: 0 auto 60px;
 }
 
@@ -796,7 +800,7 @@ input[type=number]::placeholder {
 }
 
 .our-partners-section .our-partners-inner__head {
-  max-width: 367px;
+  max-width: 625px;
   width: 100%;
   margin: 0 auto 50px;
   text-align: center;
@@ -1110,7 +1114,7 @@ input[type=number]::placeholder {
 }
 
 .footer-inner__lists {
-  max-width: 417px;
+  max-width: 475px;
   width: 100%;
 }
 
@@ -1141,7 +1145,7 @@ input[type=number]::placeholder {
 }
 
 .footer-inner__list a {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #2c2c2c;
@@ -1164,7 +1168,7 @@ input[type=number]::placeholder {
 }
 
 .footer-inner__address span {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #2c2c2c;
@@ -1189,6 +1193,19 @@ input[type=number]::placeholder {
   margin-right: 15px;
 }
 
+.footer-inner__links {
+  margin-top: 25px;
+}
+
+.footer-inner__links span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2c2c2c;
+  display: block;
+  margin-bottom: 15px;
+}
+
 .footer-inner__links a {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1200,6 +1217,8 @@ input[type=number]::placeholder {
   font-size: 14px;
   line-height: 16px;
   color: #2c2c2c;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+  font-feature-settings: "pnum" on, "lnum" on;
 }
 
 .footer-inner__links a svg {
@@ -1267,7 +1286,7 @@ input[type=number]::placeholder {
 }
 
 .footer-inner-mob__lists li a {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #2c2c2c;
@@ -1293,7 +1312,7 @@ input[type=number]::placeholder {
 }
 
 .footer-inner-mob__address span {
-  font-weight: 500;
+  font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #2c2c2c;
@@ -1320,12 +1339,23 @@ input[type=number]::placeholder {
   width: 100%;
 }
 
+.footer-inner-mob__links span {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+  color: #2c2c2c;
+  display: block;
+  margin-bottom: 15px;
+}
+
 .footer-inner-mob__links a {
   display: block;
   font-weight: 400;
   font-size: 14px;
   line-height: 16px;
   color: #2c2c2c;
+  -webkit-font-feature-settings: "pnum" on, "lnum" on;
+  font-feature-settings: "pnum" on, "lnum" on;
 }
 
 .footer-inner-mob__links a svg {
@@ -1476,7 +1506,7 @@ input[type=number]::placeholder {
   }
 
   .header {
-    padding-bottom: 147px;
+    padding-bottom: 120px;
   }
 
   .header-links__nav a {
@@ -1527,6 +1557,7 @@ input[type=number]::placeholder {
   .footer-inner__address {
     width: 215px;
     padding-right: 29px;
+    margin-top: 13px;
   }
 }
 
@@ -1537,12 +1568,15 @@ input[type=number]::placeholder {
     left: 50%;
   }
 
-  .header {
-    padding-bottom: 120px;
+  .header-head {
+    padding-bottom: 0;
+    background: transparent;
+    -webkit-box-shadow: none;
+    box-shadow: none;
   }
 
-  .header-links {
-    padding-bottom: 0;
+  .header {
+    padding-bottom: 70px;
   }
 
   .header-offer h1 {
@@ -2103,7 +2137,7 @@ input[type=number]::placeholder {
 
   .footer-inner-mob__address {
     max-width: none;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
   }
 
   .footer-inner-mob__address svg {
