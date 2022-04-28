@@ -800,8 +800,6 @@ input[type=number]::placeholder {
 }
 
 .our-partners-section .our-partners-inner__head {
-  max-width: 625px;
-  width: 100%;
   margin: 0 auto 50px;
   text-align: center;
 }
