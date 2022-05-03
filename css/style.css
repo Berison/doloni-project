@@ -832,8 +832,12 @@ input[type=number]::placeholder {
   margin-bottom: 40px;
 }
 
-.our-partners-section .our-partners-inner__list img:not(:last-of-type) {
+.our-partners-section .our-partners-inner__list a:not(:last-of-type) {
   margin-right: 30px;
+}
+
+.our-partners-section .our-partners-inner__list img {
+  max-height: 90px;
 }
 
 .our-partners-section .our-partners-inner__info {
@@ -1526,10 +1530,6 @@ input[type=number]::placeholder {
     justify-content: space-around;
   }
 
-  .result-section .result-inner ul li:not(:last-of-type) {
-    margin-bottom: 30px;
-  }
-
   .result-section .result-inner ul li:nth-of-type(2) {
     margin-left: 0;
   }
@@ -1556,6 +1556,12 @@ input[type=number]::placeholder {
     width: 215px;
     padding-right: 29px;
     margin-top: 13px;
+  }
+}
+
+@media (max-width: 1279px) {
+  .result-section .result-inner ul li:not(:last-of-type) {
+    margin-bottom: 30px;
   }
 }
 
@@ -2012,7 +2018,7 @@ input[type=number]::placeholder {
     margin-bottom: 24px;
   }
 
-  .our-partners-section .our-partners-inner__list img:not(:last-of-type) {
+  .our-partners-section .our-partners-inner__list a:not(:last-of-type) {
     margin: 0 0 16px;
   }
 

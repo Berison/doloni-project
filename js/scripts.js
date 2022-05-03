@@ -119,7 +119,6 @@ formInner.addEventListener('submit', function (e) {
     'Вибраний пункт': select,
     'Коментар': comment ? comment : 'Не заповнено'
   };
-  
   fetch('senda.php', {
     method: 'post',
     body: JSON.stringify(data)
@@ -131,12 +130,3 @@ formInner.addEventListener('submit', function (e) {
     console.error(error);
   });
 });
-
-//Fondy
-// fetch('https://pay.fondy.eu/api/checkout/url/')
-// .then(function (response) {
-//   console.log(response)
-// })
-// .catch(function (error) {
-//   console.error(error)
-// })
